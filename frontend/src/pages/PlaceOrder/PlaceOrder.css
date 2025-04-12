@@ -1,0 +1,101 @@
+.place-order{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.place-order-left{
+    width: 100%;
+    max-width: max(30%, 500px);
+}
+
+.place-order-left .title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.place-order-left input{
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
+    outline-color: tomato;
+}
+
+.place-order-left .multi-fields{
+    display: flex;
+    gap: 10px;
+}
+
+.place-order-right{
+    width: 100%;
+    max-width: max(40%, 500px);
+}
+
+.place-order .cart-total button{
+    margin-top: 30px;
+}
+
+.processing-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 200px); /* 100vh থেকে approx header+footer বাদ */
+  text-align: center;
+  padding: 20px;
+}
+
+
+.processing-screen h2 {
+  color: #2196F3;
+  margin-bottom: 16px;
+}
+
+.processing-screen p {
+  color: #666;
+  font-size: 16px;
+}
+
+.order-success {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 200px); /* approx header+footer বাদ */
+  text-align: center;
+  padding: 40px 20px;
+  animation: fadeIn 0.8s ease-in;
+}
+
+.order-success h2 {
+  font-size: 32px;
+  color: #4CAF50;
+  margin-bottom: 16px;
+}
+
+.order-success p {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 12px;
+}
+
+.order-success button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: tomato;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.order-success button:hover {
+  background-color: #e23e23;
+}
