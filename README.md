@@ -67,11 +67,11 @@ Create a `.env` file inside the `backend/` folder:
 
 ```env
 PORT=4000
+FRONTEND_URL=http://localhost:5173
 JWT_SECRET=your_jwt_secret
 SALT=your_salt
 MONGODB_URI=mongodb+srv://your-user:your-pass@cluster.mongodb.net/dbname
 STRIPE_SECRET_KEY=your_stripe_key (optional if Stripe integration added later)
-FRONTEND_URL=http://localhost:5173
 ```
 
 ### 🧑‍🎨 Frontend `.env`
@@ -88,21 +88,27 @@ VITE_API_URL=http://localhost:4000
 ### 1️⃣ Backend Setup
 
 cd backend
+
 npm install
+
 npm start
 
 
 ### 2️⃣ Frontend Setup
 
 cd frontend
+
 npm install
+
 npm run dev
 
 
 ### 3️⃣ Admin Panel Setup
 
 cd admin
+
 npm install
+
 npm run dev
 
 
